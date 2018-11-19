@@ -1,0 +1,8 @@
+# Clion files
+.idea
+cmake-build-debug/
+CMakeLists.txt
+
+
+# executable file
+run-me
