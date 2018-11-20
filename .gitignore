@@ -6,3 +6,6 @@ CMakeLists.txt
 
 # executable file
 run-me*
+
+# statistics file
+statistics*
