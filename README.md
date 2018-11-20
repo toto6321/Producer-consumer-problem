@@ -58,7 +58,7 @@ while(1){
 * Process C
 ```
 while(1){
-    // codes to read buffer 1
+    // codes to read buffer 2
     P(&full[1]);
     P(&mutex[1]);
     /* read buffer[1] */
