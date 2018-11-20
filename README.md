@@ -26,7 +26,7 @@ while(1){
     // codes to read buffer 1
     P(&empty[0]);
     P(&mutex[0]);
-    // write buffer[0]
+    /* write buffer[0] */
     V(&mutex[0]);
     V(&full[0]);
 
@@ -40,7 +40,7 @@ while(1){
     // codes to read buffer 1
     P(&full[0]);
     P(&mutex[0]);
-    // read buffer[0]
+    /* read buffer[0] */
     V(&mutex[0]);
     V(&empty[0]);
 
@@ -58,10 +58,10 @@ while(1){
 * Process C
 ```
 while(1){
-    // codes to read buffer 1
+    // codes to read buffer 2
     P(&full[1]);
     P(&mutex[1]);
-    // read buffer[1]
+    /* read buffer[1] */
     V(&mutex[1]);
     V(&empty[1]);
 
