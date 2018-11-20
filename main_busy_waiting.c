@@ -128,7 +128,7 @@ int main(int argc, char **argv) {
         if (i == N_LOOP - 1) {
             fprintf(write_stream, "%ld\n", elapsed_time[i]);
         } else {
-            fprintf(write_stream, "%ld,", elapsed_time[1]);
+            fprintf(write_stream, "%ld,", elapsed_time[i]);
         }
     }
 
