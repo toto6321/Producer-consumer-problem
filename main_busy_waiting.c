@@ -22,11 +22,11 @@ void wait(int *i) {
 //        printf("%5d", c++);
         sleep(1); // to slow down the tolling and make it visible
     }
-    *i--;
+    --(*i);
 }
 
 void signal(int *i) {
-    *i++;
+    ++(*i);
 }
 
 void *showStatus(void *v) {
