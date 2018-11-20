@@ -16,11 +16,9 @@ char buffer[N_BUFFER] = {'a', 'a'};
 char labels[N_THREAD] = {'A', 'B', 'C'};
 
 void wait(int *i) {
-    int c = 0;
     while (*i <= 0) {
         /* busy waiting */
-//        printf("%5d", c++);
-        sleep(1); // to slow down the tolling and make it visible
+//        sleep(1); // to slow down the tolling and make it visible
     }
     --(*i);
 }
@@ -112,9 +110,9 @@ int main(int argc, char **argv) {
     thread_ids[0] = pthread_create(&threads[0], NULL, processA, &labels[0]);
     thread_ids[1] = pthread_create(&threads[1], NULL, processB, &labels[1]);
     thread_ids[2] = pthread_create(&threads[2], NULL, processC, &labels[2]);
-    thread_ids[3] = pthread_create(&threads[3], NULL, showStatus, &labels[2]);
+//    thread_ids[3] = pthread_create(&threads[3], NULL, showStatus, &labels[2]);
 
-    for (int i = 0; i < N_THREAD + 1; i++) {
+    for (int i = 0; i < N_THREAD; i++) {
         pthread_join(threads[i], NULL);
     }
 
