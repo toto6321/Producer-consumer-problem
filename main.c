@@ -6,7 +6,7 @@
 
 #define  N_BUFFER 2
 #define  N_THREAD 3
-#define  N_LOOP 3
+#define  N_LOOP 10
 
 // each pair of empty and full semaphores controls one buffer
 sem_t empty[N_BUFFER];
