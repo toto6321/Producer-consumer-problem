@@ -18,24 +18,12 @@ char labels[N_THREAD] = {'A', 'B', 'C'};
 void wait(int *i) {
     while (*i <= 0) {
         /* busy waiting */
-//        sleep(1); // to slow down the tolling and make it visible
     }
     --(*i);
 }
 
 void signal(int *i) {
     ++(*i);
-}
-
-void *showStatus(void *v) {
-    while (1) {
-        printf("%20s\n", "Mutexes");
-        printf("%10d, %10d \n", mutex[0], mutex[1]);
-        printf("%20s\n", "Semaphores");
-        printf("%10s%10s%10s%10s\n", "empty1", "full1", "empty2", "full2");
-        printf("%10d%10d%10d%10d\n", empty[0], full[0], empty[1], full[1]);
-        sleep(1);
-    }
 }
 
 void *processA(void *v) {
@@ -110,7 +98,6 @@ int main(int argc, char **argv) {
     thread_ids[0] = pthread_create(&threads[0], NULL, processA, &labels[0]);
     thread_ids[1] = pthread_create(&threads[1], NULL, processB, &labels[1]);
     thread_ids[2] = pthread_create(&threads[2], NULL, processC, &labels[2]);
-//    thread_ids[3] = pthread_create(&threads[3], NULL, showStatus, &labels[2]);
 
     for (int i = 0; i < N_THREAD; i++) {
         pthread_join(threads[i], NULL);
