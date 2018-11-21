@@ -152,4 +152,4 @@ the standard derivation for each mechanism.
 |busy-waiting|51372140.00|40077296.00|99761192.70|102897144.10|64054388.50|122244159.40|97201609.70|66905499.00|95434656.20|83018492.20|
 |non-busy-waiting|932120.40|1370503.30|1829575.80|2285561.60|2734148.30|3186853.40|3627303.40|4106710.20|4555282.00|5076032.30|
 
-![Perfomance_analyses_of_two_kinds_of_implementation_10](charts/Performance_of_two_kinds_of_inplementation_10.png)
+![Perfomance_analyses_of_two_kinds_of_implementation_10](https://avxvxg.by.files.1drv.com/y4mE1te3FMunG7H5KCDOZ8BHT6tZuZIeQgVLiO4kHF9WBcl8_FBs_MTe8kChWthJsS2AajwRYkWidbF4SLkHjP2vTH9i4wCiKPo0zdKhpEwYse_bZ8W5xhnHAE44d2ff-FUYi-N7rdVp8R4aVRV5ZfSwJa0cHGPS3W6KB3D1Tmwq0F5-TDIKK_TAgZuX9BffhAxYO3Ko1fnB0OLc3M1UAZBhQ?width=640&height=480&cropmode=none)
