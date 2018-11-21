@@ -9,3 +9,7 @@ run-me*
 
 # statistics file
 statistics*
+
+
+# charts
+charts/
