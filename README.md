@@ -139,8 +139,8 @@ Obviously, the non-busy-waiting mechanism does significantly improve the perform
 10397122,10610960,246161081,11022005,122219593,11439978,246290900,11869901,12076029,12288842
 ```
 
-## Performance analysis
-Please refer to the file performance_analysis.md for more details.
+## Performance analyses
+Please refer to the file performance_analyses.md for more details.
 
 According to the smaple statistics shown above, we can calculate the average accumulative elapsed time and
 the standard derivation for each mechanism.
@@ -151,4 +151,5 @@ the standard derivation for each mechanism.
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |busy-waiting|51372140.00|40077296.00|99761192.70|102897144.10|64054388.50|122244159.40|97201609.70|66905499.00|95434656.20|83018492.20|
 |non-busy-waiting|932120.40|1370503.30|1829575.80|2285561.60|2734148.30|3186853.40|3627303.40|4106710.20|4555282.00|5076032.30|
-![Perfomance_analysis_of_two_kinds_of_implementation_10](charts/Performance_of_two_kinds_of_inplementation_10.png)
+
+![Perfomance_analyses_of_two_kinds_of_implementation_10](charts/Performance_of_two_kinds_of_inplementation_10.png)
