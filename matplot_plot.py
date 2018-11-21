@@ -22,7 +22,7 @@ def draw_the_plots(n_loop=10, elapsed_times=None, elapsed_times2=None, se1=None,
             pass
 
     # plot decoration
-    pyplot.title("Performance Analysis")
+    pyplot.title("Performance Analyses")
     pyplot.xlabel("How many times the process C has consumed")
     pyplot.ylabel("The accumulative elapsed time (in nanosecond)")
     pyplot.legend(loc="upper left")
