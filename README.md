@@ -107,6 +107,8 @@ Process C is reading A from buffer2
 ```
 
 ## Sample statistics of elapsed time (in nanosecond)
+For example, I have run these two program fors 10 times respectively with the shell script run.sh, and got the data below.
+It indicates the non-busy-waiting mechanism does significantly improve the performance.
 * non-busy-waiting implementation (semaphore)
 ```csv
 853072,1257084,1628118,2035620,2470156,2842895,3330136,3805943,4171814,4618277
