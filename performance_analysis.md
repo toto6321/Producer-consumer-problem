@@ -8,7 +8,7 @@ becuase it does improve the performance a lot.
 
 1. N_LOOP = 10
 
-![Performance_of_two_kinds_of_inplementation_10](https://avxvxg.by.files.1drv.com/y4mE1te3FMunG7H5KCDOZ8BHT6tZuZIeQgVLiO4kHF9WBcl8_FBs_MTe8kChWthJsS2AajwRYkWidbF4SLkHjP2vTH9i4wCiKPo0zdKhpEwYse_bZ8W5xhnHAE44d2ff-FUYi-N7rdVp8R4aVRV5ZfSwJa0cHGPS3W6KB3D1Tmwq0F5-TDIKK_TAgZuX9BffhAxYO3Ko1fnB0OLc3M1UAZBhQ?width=640&height=480&cropmode=none)
+![Performance_of_two_kinds_of_implementation_10](https://avxvxg.by.files.1drv.com/y4mE1te3FMunG7H5KCDOZ8BHT6tZuZIeQgVLiO4kHF9WBcl8_FBs_MTe8kChWthJsS2AajwRYkWidbF4SLkHjP2vTH9i4wCiKPo0zdKhpEwYse_bZ8W5xhnHAE44d2ff-FUYi-N7rdVp8R4aVRV5ZfSwJa0cHGPS3W6KB3D1Tmwq0F5-TDIKK_TAgZuX9BffhAxYO3Ko1fnB0OLc3M1UAZBhQ?width=640&height=480&cropmode=none)
 
 * Non-busy-waiting/semaphore    
 
@@ -33,7 +33,7 @@ becuase it does improve the performance a lot.
 
 2. N_LOOP = 50
 
-![Performance_of_two_kinds_of_inplementation_50](https://afxvxg.by.files.1drv.com/y4mKKphq936EK4SxX36uN9xOtcFGMskeWHidrPIUmUtb83clEuRloUaTynEwsHN6_3GUYx83I4FLVj1AglefpwqlwhniMsLdTo9jRjOOgh3_WNew41UhMBg-lBYs_WsbLNftJPFRDItoU70St4aWLcKYEOq9UAocYCJOWfsdbBt1m0RLZjjuQR5sdnrAwJGTjh-SWThAA2C2NGlLxXWWXuRBA?width=640&height=480&cropmode=none)
+![Performance_of_two_kinds_of_implementation_50](https://afxvxg.by.files.1drv.com/y4mKKphq936EK4SxX36uN9xOtcFGMskeWHidrPIUmUtb83clEuRloUaTynEwsHN6_3GUYx83I4FLVj1AglefpwqlwhniMsLdTo9jRjOOgh3_WNew41UhMBg-lBYs_WsbLNftJPFRDItoU70St4aWLcKYEOq9UAocYCJOWfsdbBt1m0RLZjjuQR5sdnrAwJGTjh-SWThAA2C2NGlLxXWWXuRBA?width=640&height=480&cropmode=none)
 
 * Non-busy-waiting/semaphore    
 
